@@ -11,6 +11,35 @@
         <title>Document</title>
     </head>
     <body>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">
+                        <img src="logo_zenlish.png" alt="Logo" />
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">
+                        <img src="home.png" alt="Home" />
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">
+                        <img src="group.png" alt="Group" />
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">
+                        <img src="notification.png" alt="Notifications" />
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#" class="navbar-link">
+                        <img src="profile.png" alt="Profile" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <div class="container">
             <div class="left-section">
                 <img src="logo_zenlish.png" alt="hihi" />
@@ -19,16 +48,19 @@
             </div>
             <div class="right-section">
                 <form>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required />
-                    <label for="password">Password</label>
-                    <input
-                        type="password"
-                        id="password"
-                        name="password"
-                        required
-                    />
-                    <button type="submit">Log in</button>
+                    <label  > <br><br> </label>
+                    <form class="login">
+                        <input
+                            type="text"
+                            placeholder="username"
+                            class="login__input login__input--user"
+                            />
+                        <input
+                        type="text"
+                        placeholder="password"
+                        class="login__input login__input--password"
+                        />
+                    <button class="login__btn">Log in</button>
                     <p><a href="#">Forgot password?</a></p>
                 </form>
                 <p class="msgCreatePage">
